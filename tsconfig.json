@@ -1,0 +1,28 @@
+// prettier-ignore
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es6",
+    "lib": ["es6", "scripthost", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react-native",
+    "declaration": true,
+    "declarationMap": true,
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "outDir": "dist",
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "acecounter.sdk.react-native", "dist"]
+}
